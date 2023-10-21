@@ -37,8 +37,8 @@ const TeamMember = ({}) => {
   };
 
   useEffect(() => {
-    // const apiUrl = "https://portfolio-express-server-iota.vercel.app/aboutTeam";
-    const apiUrl = "https://my-team-nine.vercel.app/api/members";
+    const apiUrl = "https://portfolio-express-server-iota.vercel.app/aboutTeam";
+    // const apiUrl = "https://my-team-nine.vercel.app/api/members";
     fetchData(apiUrl)
       .then((fetchedData) => {
         setData(fetchedData);
